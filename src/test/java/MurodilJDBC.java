@@ -96,6 +96,12 @@ public class MurodilJDBC {
 
 //        resultSet.absolute(rowNum);
 
+        //print all employee ids from a list of maps
+        for (Map<String,Object> emp : list){
+            System.out.print(emp.get("employee_id") + " ");
+    }
+
+
 
         resultSet.close();
         statement.close();
