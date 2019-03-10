@@ -1,3 +1,5 @@
+package com.postgres.tests;
+
 import java.sql.*;
 
 import org.junit.Test;

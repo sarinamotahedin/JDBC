@@ -1,6 +1,5 @@
-package utilities;
+package com.postgres.utilities;
 
-import javax.security.auth.login.Configuration;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -70,6 +69,3 @@ public class DBUtility {
     }
 }
 
-enum DBType{
-    ORACLE,MYSQL,POSTGRESQL,MARIADB
-}
